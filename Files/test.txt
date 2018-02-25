@@ -1,0 +1,24 @@
+;
+001
+Kleinclaus
+Florent
+18/2/1994
+Etudiant
+;
+002
+Roelandt
+Elphege
+09/1/1993
+Etudiant
+;
+003
+Kleinclaus
+Martial
+22/6/1968
+Directeur chez Cora
+;
+004
+Guemard
+Veronique
+04/2/1969
+Chomage
