@@ -52,9 +52,9 @@ void LectureFichierIndividus(string mChemin)
 
 
 
-//BUT : Lire un fichier txt contenant des individus et afficher uniquement un individu
-//ENTREE : chemin fichier txt
-//SORTIE : Contenu afficher à l'ecran
+//BUT : Lire un fichier txt contenant des individus et afficher uniquement un individu en fct du choix utilisateur
+//ENTREE : chemin fichier txt / choix utilisateur
+//SORTIE : Individu demandé afficher à l'ecran
 void LectureFichierIndividu(string mChemin)
 {
 	ifstream fichier(mChemin, ios::in); // on ouvre le fichier de lecture
@@ -76,6 +76,7 @@ void LectureFichierIndividu(string mChemin)
 
 		fichier.clear();
 		fichier.seekg(0, ios::beg);
+
 		for (int i = 0; i < choixUt; i++) {
 			fichier.ignore(numeric_limits<int>::max(), ';'); //Ignore tout les caractères jusqu'à un ';' Permet d'ignorer les utilisateurs
 		}
